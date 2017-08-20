@@ -4,7 +4,7 @@
     <div class="text-block">Сейчас мы с тобой поиграем в игру 🐱</div>
     <div class="text-block">Цель игры это узнать что за секрет таится в конце😊 </div>
     <div class="text-block">Только играть ЧЕСТНО 😛</div>
-    <div class="text-block"><button onclick="window.location.href='iko/begin'">Нажми на меня!😮</button></div>
+    <div class="text-block"><button onclick="window.location.href='begin'">Нажми на меня!😮</button></div>
 </div>
 <script>
     $(document).ready(function() {
@@ -34,7 +34,7 @@ function AnimTXT() {
 .text-block {
     font-family: 'Neucha', cursive;
     font-size: 28px;
-    position: absolute;
+    position: relative;
     display: none;    
 }
 button {
